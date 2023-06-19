@@ -1,4 +1,5 @@
 #include <gtest/gtest.h>
+
 #include <TerminalDriver.hpp>
 
 int TerminalDriver_test() {
@@ -14,6 +15,4 @@ int TerminalDriver_test() {
     return 0;
 }
 
-TEST(TerminalDriver, BasicAssertions) {
-    TerminalDriver_test();
-}
+TEST(TerminalDriver, BasicAssertions) { TerminalDriver_test(); }
